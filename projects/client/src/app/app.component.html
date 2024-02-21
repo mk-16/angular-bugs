@@ -1,0 +1,17 @@
+<header>
+  <h1>Michael's Guide</h1>
+  <nav>
+    <ul>
+      <li>
+        <a [routerLink]="['custom-one']" >Lorem Ipsum One</a>
+      </li>
+      <li>
+        <a href="#">anchor element</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<router-outlet />
+<main>
+  <router-outlet name="secondary" />
+</main>
